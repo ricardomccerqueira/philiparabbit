@@ -1,0 +1,132 @@
+#contacts{
+	background-image:url(../img/background_contact.png);
+	background-repeat:repeat-y;
+	padding-top:100px;
+
+
+	#contactsInnerWrapper{
+		-webkit-transform-origin: -5% 100%;
+		width:360px;
+		margin: auto;
+
+		ul{
+			margin:0;
+			overflow:hidden;
+			padding:0;
+			list-style-type: none;
+			width:103%;
+
+			li{
+				img{
+
+				}
+			}
+		}
+
+		.shareItem{
+			width:83px;
+			height:83px;
+			float:left;
+			margin-left:11px;
+
+			&:first-child{
+				margin-left:0;
+			}
+
+			&.ce{
+				background-image:url(../img/ce_ON.png);
+			}
+
+			&.er{
+				background-image:url(../img/er_ON.png);
+			}
+
+			&.cloud{
+				background-image:url(../img/cloud_ON.png);
+			}
+
+			&.ook{
+				background-image:url(../img/ook_ON.png);
+			}
+
+			img{
+				@include opacity(0);
+				transition:all 0.1s;
+			}
+
+			&:hover{
+				background-image:none;
+				img{
+					@include opacity(1);
+				}
+			}
+		}
+
+		#formHolder{
+			.contacts{
+				background-image:url(../img/contactsHolder.png);
+				width:359px;
+				height:110px;
+				background-repeat:no-repeat;
+				margin: auto;
+				margin-bottom:-30px;
+				padding-left:3%;
+				margin-left:1px;
+				padding-top:15px;
+
+				p{
+					color:$color_white;
+					margin:2px 0;
+				}
+			}
+
+			input{
+				border: 0;
+				border-radius: 20px;
+				height: 37px;
+				width: 97%;
+				padding-left: 3%;
+				margin-bottom: 20px;
+				color:$color_gray;
+				font-weight:200;
+			}
+
+			textarea{
+				width: 94%;
+				border: 0;
+				border-radius: 20px;
+				overflow: hidden;
+				padding: 3%;
+				padding-top: 5%;
+				color:$color_gray;
+				text-align:left;
+				font-weight:200;
+				resize: none;
+				position: relative;
+				z-index: 1;
+				height:110px;
+			}
+
+			button{
+				position: relative;
+				top: -20px;
+				z-index: 2;
+				width: 100%;
+				height: 55px;
+				text-align: center;
+				background-repeat: no-repeat;
+				border: 0;
+				left: 0%;
+				background: #2dc4bc;
+				padding: 0;
+				margin: auto;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+
+				&:hover{
+					background-color:#35ccc4;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,207 @@
+body{
+    transition: all 0.3s;
+    &.intro{
+        @include opacity(0);
+    }
+}
+
+#main-wrapper{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+
+    img{
+        width:100%;
+    }
+}
+
+#project_closeButton{
+    position: fixed;
+    right: 3%;
+    top: 5%;
+    z-index: 11;
+}
+
+#contactButtonHolder{
+    height:100%;
+    cursor: pointer;
+
+    img{
+        max-width:76px;
+        width: 100%;
+        position: relative;
+        top: 45%;
+        display: block;
+        margin: auto;
+        opacity:0.8;
+        @include opacity(1);
+        transition: all 0.2s;
+    }
+
+    &:hover{
+        img{
+            @include opacity(1);
+        }
+    }
+}
+
+
+#filler2{
+    position: relative;
+    overflow:hidden; 
+
+    .phrases{
+        position: absolute;
+        left: 41%;
+        width: 226px;
+        height: 100%;
+        top:0;
+        z-index: 10;
+        background-image:url(../img/whatareyouworkingon.png);
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+}
+
+#filler3{
+    position: relative;
+    background-image:url(../img/PREVIEW_FILLER3.png);
+    background-size:100%;
+    text-align:center;
+    background-repeat:no-repeat;
+    background-color:#8debe6;
+
+    .coffeeGif{
+        max-width:433px;
+    }
+
+    .phrases{
+        position: absolute;
+        left: 35%;
+        width: 30%;
+        height:100%;
+        top: 0;
+
+        background-image:url(../img/thesourceoffcreativity.png);
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+}
+
+#theeth{
+    height: 33px;
+    width: 100%;
+    background-image: url(../img/theeth.png);
+    position: absolute;
+    top: 24px;
+    left: 0;
+    z-index: 2;
+}
+
+#contacts{
+    width:0;
+    height: 100%;
+    left:0;
+    position: absolute;
+    overflow:hidden;
+    z-index: 1;
+}
+
+#menuframe{
+    display: none;
+    width:193px;
+    height:51px;
+    background-image:url(../img/menu_frame.png);
+    background-repeat:no-repeat;
+    top: 46%;
+    position: absolute;
+    right: -175px;
+    text-align:center;
+
+    span{
+        position: relative;
+        padding-right:5px;
+        top: 10px;
+        font-size: 22px;
+
+        font-family: 'Amatic SC', cursive;
+        text-transform: uppercase;
+    }
+}
+
+#menu{
+    display: none;
+    position: relative;
+    top: 41%;
+    width:29px;
+    margin: auto;
+
+    ul{
+        padding:0;
+
+        li{
+            a{
+                width:29px;
+                height:29px;
+                background:url(../img/menu_button.png);
+                background-repeat:no-repeat;
+                margin:0;
+                padding:0;
+                display:block;
+
+                &:hover,
+                &.selected{
+                    img{
+                        @include opacity(1);                        
+                    }
+                }
+                img{
+                    transition:all 0.4s;
+                    @include opacity(0);
+                }
+            }
+        }
+    }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.siteframe{    
+    position: fixed;
+    background:$color_white;
+    z-index: 3;
+
+    &.top{
+        top:0;
+        width:100%;
+    }
+
+    &.bottom{
+        bottom:0;
+        width:100%;
+    }
+
+    &.left{
+        left:0;
+    }
+
+    &.right{
+        right:0;
+        z-index: 2;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .siteframe{
+        #menuframe{
+            display:none;
+            @include opacity(0);
+        }
+    }
+}

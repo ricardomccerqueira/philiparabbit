@@ -1,0 +1,224 @@
+#whoami{
+	padding-bottom:20px;
+    background-image:url(../img/background_whoami.png);
+    width:100%;
+    background-repeat:no-repeat;
+    position: relative;
+    background-size:100%;
+    background-color:#efefef;
+    overflow: hidden;
+    background-attachment: fixed;
+
+    #whoami_bigcarrot{
+        position: absolute;
+        left: -18%;
+        width: 795px;
+        height: 100%;
+        top:20%;
+        z-index:0;
+        background-image:url(../img/whoami_bigcarrot.png);
+        background-size:100%;
+        background-repeat:no-repeat;  
+    }
+
+    #whoami_smallcarrot{
+        position: absolute;
+        left: 70%;
+        width: 335px;
+        height: 100%;
+        top:45%;
+        z-index:0;
+        background-image:url(../img/whoami_smallcarrot.png);
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+
+    #whoami_orange{
+        position: absolute;
+        left: 60%;
+        width: 398px;
+        height: 100%;
+        top:0;
+        z-index:0; 
+        background-image:url(../img/whoami_orange.png);
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+
+    #lampContainer{
+        z-index:2;
+        position: relative;
+
+    	#lamp{
+            cursor:pointer;
+    		position: relative;
+    		z-index:3;
+    		width:207px;
+    		height:350px;
+    		top: 55px;
+    		margin: auto;
+
+            div{
+                position: absolute;
+                display: none;
+                top: 20px;
+                right: 30%;
+            }
+
+    		img{
+    			position: absolute;
+
+	            &.light{
+					z-index:3;
+					display: none;
+					width: 200%; 
+					left: -50%;
+					top: 110px;
+                    pointer-events:none;
+	            }
+
+	            &.on{
+	                z-index:2;
+	                display: none;
+	            }
+
+	            &.off{
+	                z-index:1;
+	            }
+	        }
+    	}
+        
+        #rope{
+        	position:relative;
+        	z-index: 2;
+        	width:14px;
+        	margin:auto;
+        	top:-30px;
+
+        	img{
+                top:-165px;
+        		position:relative;
+        	}
+        }
+    }
+
+    #whoamivideocontainer{
+        display: none;
+        position:absolute;
+        z-index:10;
+        width:100%;
+        top:250px;
+
+        #videoHolder{
+            position: relative;
+            margin: auto;
+            max-width:828px;
+            height:420px;
+            width:90%;
+
+            #btclose{
+                position:absolute;
+                right:0px;
+                top:0;
+                z-index: 5;
+                background: none;
+                border: 0;
+            }
+
+            #whoamivideo{
+                position:relative;
+                z-index: 2;
+                width: 100% !important;
+                height:420px !important;
+            }
+
+            video{
+                width:100%;
+            }
+
+            #videoShadow{
+                position: absolute;
+                top: -15%;
+                z-index: 1;
+                display: block;
+                z-index:1;
+
+                img{
+                    width: 114%;
+                    position: relative;
+                    left: -6%;
+                    top: 0;
+                }
+            }
+        }
+    }
+
+    #whoamiphoto{
+        z-index:2;
+    	margin:auto;
+    	position:relative;
+    	width:100%;
+    	max-width: 293px;
+    	z-index: 1;
+    	top:-275px;
+
+    	img{
+    		width:100%;
+    		position:absolute;
+    		&.on{
+    			z-index: 2;
+    		}
+    	}
+    }
+
+    h1{
+        position: relative;
+        z-index:2;
+    	text-align: center;
+
+    	img{
+    		width:100%;
+    		max-width: 190px;
+    	}
+    }
+
+    p{
+        position: relative;
+        z-index:2;
+    	width:90%;
+    	max-width: 570px;
+    	text-align: center;
+    	margin: auto;
+    	line-height: 23px;
+		margin-bottom: 20px;
+        font-size:13px;
+    }
+}
+
+@media screen and(max-width:1025px){
+    #whoami #whoamivideocontainer #videoHolder #btclose{
+        right: -7px;
+        top: 40px;
+    }
+}
+
+@media screen and(max-width:960px){
+    #whoami #whoamivideocontainer #videoHolder #btclose{
+        right: -19px;
+        top: 40px;
+    }
+}
+
+@media screen and(max-width:760px){
+    #whoami #whoamivideocontainer #videoHolder #btclose{
+        right: -19px;
+        top: 80px;
+    }
+}
+
+@media screen and(max-width:560px){
+    #whoami #whoamivideocontainer #videoHolder #btclose{
+        right: -19px;
+        top: 140px;
+    }
+}

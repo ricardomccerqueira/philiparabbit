@@ -1,0 +1,23 @@
+#gallery{
+	#galleryimages{
+		overflow: hidden;
+		margin: auto;
+		padding: 0;
+		max-width:100%;
+
+		.grid-25{
+			padding:0;
+		}
+
+		.galleryitem{
+			overflow: hidden;
+			div{
+				position: relative;
+				overflow: hidden;
+			}
+			.figure{
+				float: left;
+			}
+		}
+	}
+}
