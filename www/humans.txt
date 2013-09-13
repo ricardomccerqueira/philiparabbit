@@ -3,13 +3,14 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Ricardo Cerqueira - developer - rcerqueira.com
+    Filipa Coelho - designer - philiparabbit.com
 
 # THANKS
 
-    <name>
+    Gil Peres
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, videojs, sammyjs, sass
     jQuery, Modernizr
