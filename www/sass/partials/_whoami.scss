@@ -108,21 +108,31 @@
         z-index:10;
         width:100%;
         top:250px;
+        overflow: hidden;
 
         #videoHolder{
             position: relative;
             margin: auto;
             max-width:828px;
             height:420px;
-            width:90%;
+            width: 85%;
+            max-width: 785px;
 
             #btclose{
                 position:absolute;
-                right:0px;
-                top:0;
+                right:-20px;
+                top: 40px;
                 z-index: 5;
                 background: none;
                 border: 0;
+            }
+
+            iframe {
+                width: 100%;
+                z-index: 2;
+                position: relative;
+                margin: auto;
+                height: 100%;
             }
 
             #whoamivideo{
@@ -138,16 +148,18 @@
 
             #videoShadow{
                 position: absolute;
-                top: -15%;
+                top: -12%;
                 z-index: 1;
                 display: block;
-                z-index:1;
+                z-index: 1;
+                width: 125%;
+                left: -9%;
 
                 img{
-                    width: 114%;
+                    width: 95%;
                     position: relative;
-                    left: -6%;
-                    top: 0;
+                    left: 0%;
+                    top: 0
                 }
             }
         }
@@ -170,7 +182,7 @@
     		}
     	}
     }
-
+ 
     h1{
         position: relative;
         z-index:2;
@@ -192,6 +204,10 @@
     	line-height: 23px;
 		margin-bottom: 20px;
         font-size:13px;
+
+        &.big-bottom-margin {
+            margin-bottom: 45px;
+        }
     }
 }
 

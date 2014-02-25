@@ -1,12 +1,11 @@
 #home{
-    background-size:100%;
+    background-size:cover !important;
     background-image:url(../img/background_home.jpg);
     width:100%;
     background-repeat:no-repeat;
     overflow:hidden;
     position: relative;
     display: table;
-    background-attachment:fixed;
 
     h1{
     	margin: auto;
@@ -284,7 +283,7 @@
 
 	img{
 		width:100%;
-	}
+	} 
 }
 
 #bt_scrollbackUp{
@@ -296,7 +295,7 @@
 	height:92px;
 	margin:auto;
 	display:block;
-	margin-top: 20px;
+	margin: 40px auto;
 	background-image:url(../img/backtotop.png);
 
 	img{

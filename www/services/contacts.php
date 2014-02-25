@@ -1,5 +1,5 @@
 <?php
-    $to      = 'info@djgilperez.com';
+    $to      = 'philiparabbit@gmail.com';
     $subject = 'SITE PHILIPA RABBIT';
     
     $message = 'name: \r\n';

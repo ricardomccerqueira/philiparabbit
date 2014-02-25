@@ -113,11 +113,11 @@
                                 E-Mail: info@philiparabbit.com
                             </p>
                             <p>
-                                Telf.: +351 963 694 223
+                                Telf.: +44(0) 7938 646505
                             </p>
 
                             <p>
-                                Lisboa, Portugal
+                                London, United Kingdom
                             </p>
                         </div>
                         <input id="contact_name" placeholder="Your Name" type="text">
@@ -160,7 +160,8 @@
                         <button id="btclose">
                             <img src="img/btClose.png" alt="">
                         </button>
-                        <video id="whoamivideo" class="video-js vjs-default-skin" controls preload="auto" poster="img/PREVIEW_VIDEO_WHOAMI.png"></video>                        
+                        
+                        <iframe src="//player.vimeo.com/video/71045646?title=0&amp;byline=0&amp;portrait=0" width="500" height="267" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/71045646">Who Am I</a> from <a href="http://vimeo.com/philiparabbit">Philipa Rabbit</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                         
                         <div id="videoShadow" class="hide-on-mobile">
                             <img src="img/videoShadow.png" alt="">
@@ -199,13 +200,13 @@
                     music allows me the freedom to compose my own tracks when needed, check them <a target="_blank" href="https://soundcloud.com/philiparabbit">here</a>.
                 </p>    
 
-                <p>
-                    I'm graduated on Communication Design by the Faculty of Fine Arts of University of Lisbon, <br>
+                <p class="big-bottom-margin">
+                    I’m graduated on Communication Design by the Faculty of Fine Arts of University of Lisbon, <br>
                     one of Portugal finest. Whenever possible I try to expand my technical and conceptual <br>
-                    knowledge, what led me to an Illustration course in Tecnical School of Arts and Technology <br>
-                    (RESTART) in the present course (2013). Currently, I’ve been working as part of a art direction <br>
-                    as web designer and as a freelance illustrator. I've had the opportunity to work for <br>
-                    clients such as: Oreo, Smart, Um Bongo, Pedigree and Whiskas to name a few.
+                    knowledge, what led me to an Illustration course in Tecnical School of Arts and Technology <br> 
+                    (RESTART) in 2013. I’ve been working as web designer and a freelance illustrator. <br>
+                    I’ve had the opportunity to work for clients such as: Oreo, Smart, <br>
+                    Pedigree, Whiskas, Kellogg’s and Pringles to name a few.<br>
                 </p>
 
                 <div id="whoami_bigcarrot">
@@ -279,7 +280,7 @@
                                 <img src="img/gallery/02.jpg" alt="">
                             </figure>
                             <figure class="figure">
-                                <img src="img/gallery/01.jpg" alt="">
+                                <img src="img/gallery/13.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -295,7 +296,7 @@
                                 <img src="img/gallery/04.jpg" alt="">
                             </figure>
                             <figure class="figure">
-                                <img src="img/gallery/03.jpg" alt="">
+                                <img src="img/gallery/14.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -311,7 +312,7 @@
                                 <img src="img/gallery/06.jpg" alt="">
                             </figure>
                             <figure class="figure">
-                                <img src="img/gallery/05.jpg" alt="">
+                                <img src="img/gallery/15.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -324,10 +325,10 @@
                                 <img src="img/gallery/03.jpg" alt="">
                             </figure>
                             <figure class="figure">
-                                <img src="img/gallery/08.jpg" alt="">
+                                <img src="img/gallery/16.jpg" alt="">
                             </figure>
                             <figure class="figure">
-                                <img src="img/gallery/07.jpg" alt="">
+                                <img src="img/gallery/08.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -343,7 +344,7 @@
                                 <img src="img/gallery/10.jpg" alt="">
                             </figure>
                             <figure class="figure">
-                                <img src="img/gallery/09.jpg" alt="">
+                                <img src="img/gallery/17.jpg" alt="">
                             </figure>
                         </div>
                     </div>
@@ -359,14 +360,14 @@
                                 <img src="img/gallery/12.jpg" alt="">
                             </figure>
                             <figure class="figure">
-                                <img src="img/gallery/11.jpg" alt="">
+                                <img src="img/gallery/18.jpg" alt="">
                             </figure>
                         </div>
                     </div>
                     <div current-page="0" canloop="true" class="galleryitem grid-25 mobile-grid-50">
                         <div>
                             <figure class="figure">
-                                <img src="img/gallery/07.jpg" alt="">
+                                <img src="img/gallery/13.jpg" alt="">
                             </figure>
                             <figure class="figure">
                                 <img src="img/gallery/01.jpg" alt="">
@@ -382,7 +383,7 @@
                     <div current-page="0" canloop="true" class="galleryitem grid-25 mobile-grid-50">
                         <div>
                             <figure class="figure">
-                                <img src="img/gallery/09.jpg" alt="">
+                                <img src="img/gallery/14.jpg" alt="">
                             </figure>
                             <figure class="figure">
                                 <img src="img/gallery/08.jpg" alt="">
@@ -398,7 +399,7 @@
                     <div current-page="0" canloop="true" class="galleryitem grid-25 mobile-grid-50">
                         <div>
                             <figure class="figure">
-                                <img src="img/gallery/01.jpg" alt="">
+                                <img src="img/gallery/15.jpg" alt="">
                             </figure>
                             <figure class="figure">
                                 <img src="img/gallery/11.jpg" alt="">
@@ -414,7 +415,7 @@
                     <div current-page="0" canloop="true" class="galleryitem grid-25 mobile-grid-50">
                         <div>
                             <figure class="figure">
-                                <img src="img/gallery/03.jpg" alt="">
+                                <img src="img/gallery/16.jpg" alt="">
                             </figure>
                             <figure class="figure">
                                 <img src="img/gallery/02.jpg" alt="">
@@ -430,7 +431,7 @@
                     <div current-page="0" canloop="true" class="galleryitem grid-25 mobile-grid-50">
                         <div>
                             <figure class="figure">
-                                <img src="img/gallery/05.jpg" alt="">
+                                <img src="img/gallery/17.jpg" alt="">
                             </figure>
                             <figure class="figure">
                                 <img src="img/gallery/06.jpg" alt="">
@@ -446,7 +447,7 @@
                     <div current-page="0" canloop="true" class="galleryitem grid-25 mobile-grid-50">
                         <div>
                             <figure class="figure">
-                                <img src="img/gallery/07.jpg" alt="">
+                                <img src="img/gallery/18.jpg" alt="">
                             </figure>
                             <figure class="figure">
                                 <img src="img/gallery/08.jpg" alt="">

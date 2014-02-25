@@ -58,7 +58,7 @@ var Rabbit = {
 
         //Rabbit.video1 = videojs('filler1_video');
         Rabbit.video2 = videojs('filler2_video');
-        Rabbit.video3 = videojs('whoamivideo');
+        // Rabbit.video3 = videojs('whoamivideo');
     },
 
     handleInView:function(event, isInView, visiblePartX, visiblePartY) {
@@ -187,21 +187,21 @@ var Rabbit = {
                 }).
                 on("click",function(){
                     if(Rabbit.video3Loaded == false){
-                        Rabbit.video3Loaded = true;
-                        Rabbit.video3.src({ type: "video/mp4", src: "video/filler3.mp4" });
+                        // Rabbit.video3Loaded = true;
+                        // Rabbit.video3.src({ type: "video/mp4", src: "video/filler3.mp4" });
                     }
 
-                    Rabbit.video3.on("ended",function(){
-                        $("#whoamivideocontainer").fadeOut("slow");
-                    });
+                    // Rabbit.video3.on("ended",function(){
+                    //     $("#whoamivideocontainer").fadeOut("slow");
+                    // });
 
                     $("#whoamivideocontainer").fadeIn();
-                    Rabbit.video3.currentTime(0);
-                    Rabbit.video3.play();
+                    // Rabbit.video3.currentTime(0);
+                    // Rabbit.video3.play();
 
                     $("#videoHolder #btclose").on("click",function(){
                         $("#videoHolder #btclose").off("click");
-                        Rabbit.video3.pause();
+                        // Rabbit.video3.pause();
                         $("#whoamivideocontainer").fadeOut("slow");
                     });
                 });
